@@ -1,0 +1,33 @@
+1. Setting up SPARK
+===================
+http://getsparks.org/set-up#option-2
+
+1. Navigate to the root of your CodeIgniter application (where the application and system directories reside by default)
+2. Create a directory named 'sparks'
+3. Create a new file: application/core/MY_Loader.php
+4. Copy the contents of http://getsparks.org/static/install/MY_Loader.php.txt into the file created above.
+5. Verify that the 'subclass_prefix' setting in application/config/config.php is set to MY_ .
+6. If all goes well, continue to Get Sparks. http://getsparks.org/get-sparks
+7. Navigate to the root of your CodeIgniter application (where the application and system directories reside by default)
+8. Create a directory named 'sparks' and copy the content within that folder.
+
+ORM Choice
+==========
+
+    DataMapper
+
+    http://datamapper.wanwizard.eu/
+
+
+Auth Library
+============
+    Tank Auth
+
+    http://konyukhov.com/soft/tank_auth/
+
+
+
+
+Others Resource may be need some days
+=====================================
+http://getsparks.org/search
