@@ -22,4 +22,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('welcome_message');
 	}
+	public function spark()
+	{
+		$this->load->spark('example-spark/1.0.0');
+		$this->example_spark->printHello();
+	}
 }

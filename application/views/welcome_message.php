@@ -41,6 +41,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
 		</div>
 
+		<br>
+		<br>
+
+		<div>
+			<p>Testing Spark</p>
+			<hr>
+			<a href="<?php echo base_url()?>index.php/welcome/spark">Sparks works?</a>
+		</div>
+
+		<br>
+		<br>
+
 		<div>
 			<br>
 			<br>

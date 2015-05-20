@@ -10,6 +10,7 @@ http://getsparks.org/set-up#option-2
 6. If all goes well, continue to Get Sparks. http://getsparks.org/get-sparks
 7. Navigate to the root of your CodeIgniter application (where the application and system directories reside by default)
 8. Create a directory named 'sparks' and copy the content within that folder.
+9. Remove EXT and renamed it with .php [from file MY_Loader.php at line 172]
 
 ORM Choice
 ==========
@@ -26,6 +27,8 @@ Auth Library
     http://konyukhov.com/soft/tank_auth/
 
 
+Debug Toolbar
+==============
 
 
 Others Resource may be need some days
